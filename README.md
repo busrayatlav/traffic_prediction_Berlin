@@ -1,20 +1,5 @@
 
-# README: Berlin Traffic Prediction and Autonomous Vehicle Route Optimization
-
-## Overview
-This project predicts traffic congestion in Berlin and optimizes routes for autonomous vehicles using integrated data from multiple sources and advanced machine learning techniques. It aims to improve traffic flow, reduce travel times, and minimize fuel consumption.
-
----
-
-## Objectives
-1. **Traffic Prediction**:
-   - Develop models to forecast traffic density and speed.
-2. **Route Optimization**:
-   - Suggest optimal routes for autonomous vehicles.
-3. **Efficiency Improvement**:
-   - Shorten travel times.
-   - Reduce fuel consumption.
-   - Improve overall traffic flow.
+# README: Berlin Traffic Prediction 
 
 ---
 
@@ -66,53 +51,6 @@ This project leverages multiple data sources for comprehensive analysis:
 5. **Optimization**:
    - Predict traffic density and recommend optimal routes for autonomous vehicles.
 
----
-
-## Key Features
-- **Integrated Data Sources**:
-  - Combines traffic, weather, public transportation, and construction data.
-- **Advanced Machine Learning Models**:
-  - Implements state-of-the-art algorithms for prediction and optimization.
-- **Comprehensive Visualizations**:
-  - Includes spatial, temporal, and scenario-based analyses.
-- **Scalable Framework**:
-  - Easily extendable to other cities or data sources.
-
----
-
-## Installation
-To run this project locally:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/username/berlin-traffic-analysis.git
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Jupyter Notebook**:
-   ```bash
-   jupyter notebook berlin_traffic_analysis.ipynb
-   ```
-
----
-
-## Results
-1. **Best Performing Model**: Random Forest with R² of 0.772.
-2. **Holiday Insights**: Traffic speeds are slightly higher on holidays due to reduced congestion.
-3. **Spatial Insights**: Traffic density is highest in central Berlin.
-
----
-
-## Future Directions
-- Incorporate real-time traffic data for dynamic predictions.
-- Extend the model to other cities with similar data availability.
-- Integrate real-time public transportation delays into predictions.
-
----
 
 ## Contributing
 Contributions are welcome! To contribute:
